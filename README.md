@@ -21,7 +21,7 @@ arp-scan -l
 Alternatively, we could use:
 
 ```bash
-netdiscover
+netdiscover -r <TARGET_IP>
 ```
 
 After identifying the target IP address, we proceeded with enumeration.
